@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded",function(e){
             summary.innerHTML="<input value='"+ _summary +"'>";
             profileDetail.innerHTML="<input value='"+ _profileDetail +"'>";
             // 프로파일변경버튼 글자 수정 
-            e.target.textContent = "프로필 편집 완료"
+            e.target.textContent = "Profile editing completed"
             
             changing=true; // 변경됐다고 표시, true로 변경
         }
